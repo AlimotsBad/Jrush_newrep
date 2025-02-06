@@ -1,20 +1,26 @@
 body {
-    background-image: url("shutoTree.jpg");
+    background-image: url("shutoTreeNew.jpg");
     font-style: italic;
     color: antiquewhite;
-    background-size: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.bg {
 
 
 }
 header {
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-    border: 1px solid darkblue;
+    border: 1px solid black;
     height: 50px;
-    background-color: azure;
+
     padding: 10px;
     font-style: normal;
-    display: flex;
-    flex-direction: row;
+
     font-size: 2rem;
     position: relative;
     left: -10px;
@@ -23,26 +29,30 @@ header {
     z-index: 10;
     width: 100%;
     justify-content: space-around;
-    flex-wrap: nowrap;
+
     gap: 30px;
     animation-name: changeColor;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-direction: normal;
     animation-iteration-count: infinite;
     border-radius: 10px;
-
+    background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
 
 }
 nav {
     justify-content: center;
 }
 main {
-    position: absolute;
-    top: 50px;
+    position: relative;
+    display: flex;
     left: 200px;
-    height: 100%;
+
     width: calc(100% - 200px);
+
+    flex-direction: column;
+    flex: 1 1 100%;
+
 }
 h1 {
     text-align: center;
@@ -57,36 +67,71 @@ aside {
     width: 200px;
     height: 100%;
     bottom: -10px;
-    background-color: lightblue;
+    background-image: url("synthbg2.gif");
+    background-size: cover;
+    background-position: center;
     text-justify: auto;
     padding-top: 60px;
     border: 1px solid darkblue;
-    box-shadow: 10px 10px 50px rgba(0,0,0,0.5);
+    box-shadow: 30px 30px 50px rgba(0,0,0,1);
     background-color: rgba(10,10,10,0.9);
 
 }
 
 @keyframes changeColor {
     0% {
-        background-color: green;
+        background-color: lightblue;
     }
-    15% {
-        background-color: yellow;
+    20% {
+        background-color: #7fffd4;
     }
-    35% {
-        background-color: orange;
+    40% {
+        background-color: lightcoral;
     }
-    55% {
-        background-color: red;
+    60% {
+        background-color: magenta;
     }
-    70% {
-        background-color: purple;
-    }
-    85% {
-        background-color: blue;
+    80% {
+        background-color: lightcoral;
     }
     100% {
-        background-color: green;
+        background-color: #7fffd4;
     }
 
+
 }
+.lorem {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    font-size: 40px;
+    row-gap: 30px;
+    padding: 10px;
+    color: azure;
+    font-style: oblique;
+}
+div a:hover {
+    color:lightyellow;
+
+}
+a .smallChangeColor {
+
+    animation-name: changeColor;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+
+    background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
+}
+/*
+.cellar {
+    bottom: -1000px;
+    padding: 10px;
+    margin-bottom: 1px;
+    height: 40px;
+    flex-direction: column;
+    background-color: black;
+
+}*/
