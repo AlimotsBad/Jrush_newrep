@@ -1,0 +1,92 @@
+body {
+    background-image: url("shutoTree.jpg");
+    font-style: italic;
+    color: antiquewhite;
+    background-size: 100%;
+
+
+}
+header {
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border: 1px solid darkblue;
+    height: 50px;
+    background-color: azure;
+    padding: 10px;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    position: relative;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    z-index: 10;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 30px;
+    animation-name: changeColor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+
+
+}
+nav {
+    justify-content: center;
+}
+main {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    height: 100%;
+    width: calc(100% - 200px);
+}
+h1 {
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+aside {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 200px;
+    height: 100%;
+    bottom: -10px;
+    background-color: lightblue;
+    text-justify: auto;
+    padding-top: 60px;
+    border: 1px solid darkblue;
+    box-shadow: 10px 10px 50px rgba(0,0,0,0.5);
+    background-color: rgba(10,10,10,0.9);
+
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: green;
+    }
+    15% {
+        background-color: yellow;
+    }
+    35% {
+        background-color: orange;
+    }
+    55% {
+        background-color: red;
+    }
+    70% {
+        background-color: purple;
+    }
+    85% {
+        background-color: blue;
+    }
+    100% {
+        background-color: green;
+    }
+
+}
