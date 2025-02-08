@@ -5,12 +5,18 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 
 
 
 }
 .bg {
-
+    background-image: url("shutoTreeNew3.png");
+    font-style: italic;
+    color: antiquewhite;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
 
 }
 header {
