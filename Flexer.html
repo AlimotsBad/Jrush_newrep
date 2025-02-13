@@ -4,66 +4,76 @@
     <meta charset="UTF-8">
     <title>Уголок Флексера</title>
     <link rel="stylesheet" href="flexStyles.css">
+
 </head>
-<body>
-    <div class="container">
-        <header class="header">
-            <nav>
+<body class="container">
+    <header class="header">
+        <nav>
+            <div class="logo">FlexAirlines</div>
                 <ul>
                     <li>Главная</li>
                     <li>О Нас</li>
                     <li>Контакты</li>
                 </ul>
-            </nav>
-        </header>
-        <main class="mainer">
-            <div>
-                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad, aperiam at dolores ducimus
-                    impedit iure nemo obcaecati officia quibusdam quo temporibus unde! A architecto et illo illum quod
-                    reprehenderit! Architecto harum incidunt iste iusto maiores minus neque omnis? Aliquam ea fuga inventore
-                    reiciendis sequi! Dolor eos incidunt mollitia vero? Excepturi fugiat libero natus neque non quia
-                    sint sunt veniam. A aperiam at, debitis error expedita facilis impedit magni maxime modi nulla quaerat quisquam rem
-                    rerum sunt tempora tempore totam vitae voluptatem? Aut culpa error ex magni similique sit ullam! Adipisci, aliquid amet animi atque autem corporis cupiditate dicta dolor dolorum eos eveniet ex
-                    harum impedit magni maxime nihil nostrum nulla optio possimus similique totam ullam ut! Consectetur,
-                    provident quibusdam? Adipisci harum nesciunt quas quis ratione ut vitae voluptates? Autem distinctio ducimus eaque eum
-                    facilis ipsum itaque minus nemo numquam perspiciatis provident, quo rerum sequi? Deleniti
-                    dignissimos ducimus illo veritatis! Ab autem commodi cumque delectus fuga modi quaerat quo voluptatem. Accusantium aliquid aperiam,
-                    assumenda, atque beatae consequatur eaque eos eum impedit iusto magni qui rem saepe, sapiente
-                    voluptate. Cupiditate, maxime! Accusantium alias blanditiis consectetur distinctio dolorem dolorum et labore ratione sit voluptas?
-                    Blanditiis facilis illo possimus quis recusandae rerum unde? Animi, architecto dignissimos earum est
-                    eum itaque quos reprehenderit similique. Blanditiis dolore libero possimus repellat sunt? Aut dolore molestiae nostrum repudiandae? Aliquid
-                    animi aperiam consequatur dolores esse in laboriosam maiores neque placeat quidem recusandae saepe
-                    sapiente sed, velit veritatis voluptates? Alias aliquid architecto aut consectetur consequuntur dignissimos dolor eaque error, esse explicabo
-                    inventore laborum maiores minus molestiae molestias nemo possimus quod, ratione sequi tempora totam
-                    unde ut. Aliquam aperiam, fuga. Amet at eligendi esse nam voluptatibus. Aliquid aperiam cumque debitis doloribus ducimus et illum
-                    laudantium magni, modi obcaecati placeat provident quidem quos sunt vel veritatis voluptatum! Beatae
-                    ipsum odio vel? A aliquid at culpa cupiditate debitis deserunt dolor dolores exercitationem explicabo fugiat ipsam
-                    iusto neque nisi nostrum odit, placeat, possimus provident quam qui quibusdam quidem sint sunt
-                    tempore tenetur vel? Ab alias architecto cumque cupiditate debitis deleniti, dicta dolore doloremque ea eos et eum
-                    impedit in ipsa, magni, maiores maxime nam natus nihil nobis omnis perferendis sint unde veritatis
-                    voluptate? Dolorum ipsa tempore temporibus ut voluptatem. Culpa delectus dignissimos dolorem odit officia.
-                    Asperiores autem deleniti dolores ea incidunt laudantium modi nesciunt perspiciatis quisquam sint?
-                    Commodi facilis magnam placeat recusandae voluptatum. Dolores fuga ipsum nam provident. Animi consectetur, cum cumque delectus facere hic labore magnam
-                    necessitatibus quasi quidem sunt tempore tenetur vel. Assumenda, beatae corporis distinctio eveniet
-                    nemo perspiciatis recusandae vero! Architecto commodi deleniti distinctio dolorum exercitationem, facere, fuga in laborum nam
-                    necessitatibus neque reiciendis sapiente sed similique, tenetur ullam voluptate? Doloremque dolorum
-                    error ex suscipit? Cumque ipsa quibusdam recusandae vero. Corporis doloremque ea facilis magni nemo sunt. Doloremque hic impedit necessitatibus, quia
-                    reprehenderit repudiandae voluptatibus voluptatum. Alias earum et ex fugiat magnam neque officiis
-                    pariatur porro rerum similique sint, suscipit? Accusantium aut, dolore dolores ea earum expedita natus nulla odio possimus provident quas
-                    quibusdam quidem quis quod rem sed tempore tenetur voluptas voluptatibus voluptatum. Corporis ex
-                    excepturi quam reprehenderit sed? Dolorem, enim esse eveniet ex, fugiat libero maiores mollitia necessitatibus omnis pariatur
-                    perferendis perspiciatis repudiandae similique sit voluptas voluptatem voluptatum! A, aliquid enim
-                    ipsam iusto quaerat quisquam veniam voluptatem voluptates. Aperiam autem beatae culpa fuga, fugiat id iusto laboriosam molestias natus necessitatibus porro
-                    quibusdam quidem recusandae soluta unde ut voluptate. At dolor facere, id ipsum necessitatibus omnis
-                    quibusdam veritatis vero! Aliquid aspernatur beatae blanditiis dicta, dolore enim omnis. Commodi dignissimos eos iste labore
-                    maiores molestias odit repellendus! Assumenda consequatur dolore ducimus est eum expedita id,
-                    necessitatibus neque numquam quasi voluptatibus!
-                </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <aside class="sidebar">
+            <section class="button-container">
+                <button id="button1" type="button" onclick="changeVideo('Flexair')">
+                    <a href="Flexair.mp4">Flexair</a>
+                </button>
+                <button id="button2" type="button" onclick="changeVideo('Flexair 2')">
+                    <a id="f2" <!--href="Flexair2.mp4"-->Flexair2</a>
+                </button>
+                <button id="button3" type="button" name="button3">FlexAir3</button>
+                <button id="button4" type="button" name="button4">FlexAir4</button>
+                <button id="button5" type="button" name="button5">FlexAir5</button>
+                <button id="button6" type="button" name="button6">FlexAir6</button>
+            </section>
+            <script>
+                function  changeVideo(url){
+                    document.getElementById('#video-player').src = url;
+                }
+            </script>
+        </aside>
+        <div class="letter">
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio dolore earum laboriosam
+                magni minus, nihil nobis vel? At atque ipsa magni mollitia quasi quisquam, quo recusandae repellat
+                suscipit velit?
             </div>
-        </main>
-        <footer class="footer">
-            Все флексерские права защищены.
-        </footer>
-    </div>
+            <section class="video-container">
+                <video id="video-player">
+                    <source id="video-1" src="Flexair.mp4" type="video/mp4">
+                    <source id="video-2" src="Flexair2.mp4" type="video/mp4">
+                </video>
+
+                <div>
+                    <progress id="progress" max="100%" value="0" style="width: 100%; margin: 0 auto;"></progress>
+                </div>
+
+            </section>
+
+                <div id="player-buttons">
+                    <div><button id="play">Play</button></div>
+                    <div><button id="pause">Pause</button></div>
+                    <div><button id="stop">Stop</button></div>
+                    <div><button id="speed-up">Быстрее</button></div>
+                    <div><button id="speed-down">Медленее</button></div>
+                    <div><button id="speed-normal">Норма</button></div>
+                    <div><input type="range" id="volume" min="0" max="100">Звук</div>
+                    <div><p id="out">0</p></div>
+                </div>
+        </div>
+        <!--<form>
+            <iframe id="video-3" src="https://archive.org/embed/flex-air" width="600" height="400" frameborder="0"
+                    webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+        </form>-->
+    </main>
+    <footer class="footer">
+        Все флексерские права защищены.
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
